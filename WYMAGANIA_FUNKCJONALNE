@@ -8,4 +8,14 @@ Integrację w projekcie rozbijamy na 3 główne etapy:
 - Integracja dodatkowa - w ramach tej integracji dodane zostaną systemy istotne ale niezintegrowane;
 - Integracja uzupełniająca - w ramach tej integracji zostaną dodane systemy mało istotne, ale mające jakąś wartość z punktu widzenia systemu.
 Ze względu na skomplikowanie i możliwą konieczność inżynierii wstecznej w razie braku odpowiedniej dokumentacji technicznej, na ten etap projektu przewidziana jest największa ilość czasu.
-2. 
+
+2. Możliwość adaptacji systemów i urządzeń rynku cywilnego
+Ze względu na specyfikę i obszar działań części hardware'owych naszego systemu, istotnym ułatwienie będzie możliwość adaptacji systemów jak i urządzeń dostępnych na rynku cywilnym.
+W razie uszkodzenia każdy z elementów powinien być łatwy do zastąpienia substytutem z rynku cywilnego.
+Jeżeli zajdzie potrzeba powinna istnieć możliwość podpięcia szpuli telekomunikacyjno-zasilającej do ówcześnie przygotowanego pojazdu cywilnego, lub zastąpienia któregoś z elementów serwera lub podzespołu.
+Wymaga to dodatkowego czasu i zasobów na zaprojektowanie i przetestowanie prototypów. Niestety stwarza to również zagrożenie w razie dużej ilości prób zakończonych niepowodzeniem.
+
+3. Wysoki poziom bezpieczeństwa
+Jest to projekt stworzony z myślą o SZ, dlatego bezpieczeństwo jest jednym z najważniejszy priorytetów.
+Biorąc hybrydową naturę projektu, czyli oparcie zarówno o systemy jak i obsługę i sprzęt działające w polu, musimy zapewnić bezpieczeństwo na tych dwóch płaszczyznach.
+Poniekąd bezpieczeństwo podyktowało jedno z najważniejszych założeń projektu a mianowicie
