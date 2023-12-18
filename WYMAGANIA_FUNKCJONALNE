@@ -1,0 +1,11 @@
+Wymagania funkcjonalne:
+1. Integralność z obecnymi systemami - 
+Ważnym elementem projektu będzie zintegrowanie istniejących już struktur systemów, należy zapewnić jak najlepsze współdziałanie i komunikację między systemami oraz użytkownikami na każdym szczeblu.
+Integrację w projekcie rozbijamy na 3 główne etapy:
+- Integrację podstawową - ważną czynnością przy tym etapie będzie poprzedzające je skatalogowanie i analiza struktury i budowy działających już systemów.
+  Systemy te dzielimy na Istotne częściowo lub całkowicie zintegrowane, Istotne niezintegrowane, oraz mało istotne.
+  Systemy Istotne częściowo lub całkowice zintegrowane, będą poddane sprawdzeniu i integracji do naszego systemu jako pierwsze w ramach właśnie integracji podstawowej.
+- Integracja dodatkowa - w ramach tej integracji dodane zostaną systemy istotne ale niezintegrowane;
+- Integracja uzupełniająca - w ramach tej integracji zostaną dodane systemy mało istotne, ale mające jakąś wartość z punktu widzenia systemu.
+Ze względu na skomplikowanie i możliwą konieczność inżynierii wstecznej w razie braku odpowiedniej dokumentacji technicznej, na ten etap projektu przewidziana jest największa ilość czasu.
+2. 
