@@ -18,4 +18,20 @@ Wymaga to dodatkowego czasu i zasobów na zaprojektowanie i przetestowanie proto
 3. Wysoki poziom bezpieczeństwa
 Jest to projekt stworzony z myślą o SZ, dlatego bezpieczeństwo jest jednym z najważniejszy priorytetów.
 Biorąc hybrydową naturę projektu, czyli oparcie zarówno o systemy jak i obsługę i sprzęt działające w polu, musimy zapewnić bezpieczeństwo na tych dwóch płaszczyznach.
-Poniekąd bezpieczeństwo podyktowało jedno z najważniejszych założeń projektu a mianowicie
+Poniekąd bezpieczeństwo podyktowało jedno z najważniejszych założeń projektu a mianowicie oparcie go o technologię przewodową.
+Jest to technologia:
+- nie wytwarzająca szumu radiowego - co za tym idzie o wiele trudniejsza do wykrycia, przez co bezpieczniejsza dla obsługi przy niej działającej;
+- trudniejsza do przechwycenia - by przechwycić informacje i dane przesyłane za pomocą tej technologii potrzebny jest wyjątkowo krótki dystans;
+- trudniejsza do zagłuszenia - jest to technologia w dużej mierze nie podlegająca zagłuszaniu.
+Jednak konieczność rozłożenia przewodu i przygotowania stanowisk sprowokowała konieczność wyszukania dalszych rozwiązań.
+Początkowo wysunięte przyczółki miały być przygotowywane przez techników, w tym rozwiązaniu niestety następowała konieczność narażania personelu.
+Z pomocą przyszły nam dwa kolejno nasuwające się rozwiązania:
+- dron/robot - lądowy częściowo autonomiczny pojazd, mający pociągnąć odpowiednio przygotowaną wiązkę przewodów do miejsca docelowego oddalonego nawet o kilkadziesiąt km.
+  Wiązka zawierająca w sobie przewód telekomunikacyjny i zasilający, sprawia że nie musimy się martwić ani o jedno ani o drugie. Pojazd ten dzięki kamerom zewnętrznym może zapewnić też rekonesans lokalny.
+  W razie przechwycenia powinien on zawierać odpowiednie zabezpieczenia, powodujące uniemożliwienie dostępu do sieci przez dany nić wiązki, jak i przez sam pojazd. W ograniczonym zakresie możliwość samodestrukcji.
+- zespół terenowy MCT - przygotowany przez drona punkt powinien być jak najszybciej wykorzystany i w razie wykrycia również jak najszybciej zwinięty, przychodzi nam zespół techniczny ulokowany w specjalnie przygotowanym pojeździe.
+  Pojazd ten powinien zawierać narzędzia służące do telekomunikacji i ewentualnych pomiarów, oraz być przystosowany do przyłączenia uprzednio przygotowanej i pociągniętej wiązki kabla.
+  Może on być również częściowo opancerzony by chronić załogę przed bronią małokalibrową i odłamkami, jednak należy zwrócić uwagę że zależy nam na jak największej mobilności.
+
+Od strony systemowej należy pamiętać o regularnym sprawdzaniu punktów dostęu, pod względem nieautoryzowanych wejść, jak i przemyślaną politykę dostępową.
+Sama sieć jest prawie całkowicie odizolowana od sieci zewnętrzenej, ale mimo to nadal należy monitorować możliwe zagrożenia.
